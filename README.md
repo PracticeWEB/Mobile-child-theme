@@ -1,4 +1,4 @@
-** PracticeWEB Mobile Child Theme
+**PracticeWEB Mobile Child Theme**
 
 This is the child/starter theme for PW Mobile. It should be used with the PW Mobile theme in sites/all in Landscape.
 
