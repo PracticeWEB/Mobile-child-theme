@@ -1,0 +1,27 @@
+﻿name = "PW jQuery Mobile Child Theme"
+description = "PW Mobile child theme"
+core = "6.x"
+version = "6.x-2"
+engine = phptemplate
+base theme = pw_mobile
+
+stylesheets[all][] = "css/swatches.css"
+
+; Excludes
+stylesheets[all][] = "pw_staff_profile.css"
+stylesheets[all][] = "filefield.css"
+stylesheets[all][] = "logintoboggan.css"
+stylesheets[all][] = "shared_dates_and_deadlines.css"
+stylesheets[all][] = "pw_mailshots.css"
+stylesheets[all][] = "fieldgroup.css"
+stylesheets[all][] = "jquery.timeentry.css"
+stylesheets[all][] = "datepicker.css"
+stylesheets[all][] = "date.css"
+
+regions[header] = "Header"
+regions[content_top] = "Content Top"
+regions[content] = "Content"
+regions[first] = "Primary"
+regions[second] = "Secondary"
+regions[footer] = "Footer"
+regions[nav] = "Main Nav Block Only"
