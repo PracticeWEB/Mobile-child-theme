@@ -22,19 +22,6 @@
       src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUMhJvT883PZZDXxRhJMcMc5aBkzdsdnk&sensor=true">
     </script>
 	
-	<script>
-google.bookmarkbubble.Bubble.prototype.getIconUrl_ = function() {
-  if (!this.iconUrl_) {
-    var link = this.getLink(this.REL_ICON_);
-    if (!link || !(this.iconUrl_ = link.href)) {
-      this.iconUrl_ = '/<?php print path_to_theme(); ?>/images/apple-touch-icon.png';
-    }
-  }
-  return this.iconUrl_;
-};
-	
-
-	</script>
 </head> 
  
 <body class="panel-nav <?php if ($section_title) : print $section_title; endif; ?>">
